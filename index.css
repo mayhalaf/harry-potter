@@ -29,3 +29,29 @@ p {
 img {
     margin-right: 120px;  width: 80%;
 }
+
+table{
+
+width: 100%;
+
+}
+td{ 
+    text-align: center;
+   border:  1px solid;
+
+  
+}
+
+table,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+caption{ 
+    border: 20px dotted burlywood; 
+    font-weight: bold;
+}
+ tr:nth-child(even){
+
+background-size: auto; 
+
+ }
