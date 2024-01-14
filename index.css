@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(219, 184, 141);
+    background-color: white;
 }
 
 h1 {
@@ -24,6 +24,7 @@ h3 {
 p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-color: bisque;
 }
 
 img {
@@ -33,6 +34,7 @@ img {
 table{
 
 width: 100%;
+
 
 }
 td{ 
@@ -45,13 +47,23 @@ td{
 table,td,th{
     border: 2px solid black;
     border-collapse: collapse;
+    background-color:bisque
 }
 caption{ 
-    border: 20px dotted burlywood; 
+    border: 20px solid burlywood; 
     font-weight: bold;
 }
  tr:nth-child(even){
 
 background-size: auto; 
 
+ }
+
+ #potter{
+    background-color:bisque;
+ }
+
+ .paragragph{
+    font-weight: bold;
+    background-color:bisque;
  }
