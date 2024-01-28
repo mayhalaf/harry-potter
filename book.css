@@ -13,7 +13,29 @@ p {
     background-color:rgba(241, 225, 177, 0.788);
 }
 
+.grid-item{
+    text-align: center;
+border: 1px solid black  ;
 
+}
 
+grid{
+    
+    display: grid;
+    gap:10px
+}
+
+.grid-auto-rows{
+grid-template-columns: auto auto auto;
+
+}
+.grid-sized-cols{
+    grid-template-columns: 90px 50% 60px;
+}
+
+grid-sized-clos {
+    grid-template-columns: 90px 50% 60px auto;
+}
+ 
 
 }
