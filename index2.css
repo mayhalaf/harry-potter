@@ -1,11 +1,12 @@
 .grid {
     display: grid;
 }
-body{
-    background-color: rgb(104, 104, 245);
-}
-.body {
+body {
+    background-image: url("./image/1.jpeg");
     
+  }
+
+.body { 
     grid-template-areas: 
         'header header header header'
         'hero hero hero hero'
@@ -16,19 +17,20 @@ body{
 }
 
 #hero video {
-    size: 150;
+    /* size: 150; */
     width: 100%;
     height: 135vh;
     background-repeat: no-repeat;
     background-position: 42% 0;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
 
 }
 
 #header {
     grid-area: header;
     grid-template-columns: 11fr 1fr;
+    
 }
 
 #header #logo{
@@ -38,19 +40,29 @@ body{
 }
 #logo{
 
-    width: 5%;
+    width: 3%;
+    filter: invert(100%);
 }
 
-#header nav ul{
+
+#header nav ul a{
     list-style: none;
-    padding: 0;
-    margin: 0;
     grid-template-columns: repeat(5, 1fr);
     align-content: center;
+    color: #fff;
+    font-family: poppis;
+
 } 
 
-#header nav ul li{
+#header nav ul li a{
     text-align: center;
+    padding: 5px 20px;
+
+}
+#header nav ul li a:hover{ 
+    background: #fff;
+    color: #333;
+    
 }
 
 #hero {
@@ -60,6 +72,41 @@ body{
 #content {
     grid-area: content;
     grid-template-columns: 1fr 3fr;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20%;
+    text-align: center;
+    
+    
+}
+.welcome-text h1{
+margin: 0;
+text-align: center;
+color:#fff;
+ text-transform: uppercase;
+font-size: 60px;
+padding: 10px;
+
+}
+.welcome-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    /* margin-top: 20px; */
+    display:inline-block;
+    color: #fff;
+}
+.welcome-text a:hover{
+background: #fff;
+color: #333;
+}
+header{
+    border-bottom: 1px solid ;
 }
 
 #footer {
