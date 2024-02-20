@@ -112,3 +112,28 @@ header{
 #footer {
     grid-area: footer;
 }
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(37, 11, 116);
+    top: 0px;
+    }
+    li {
+    float: left;
+    border: 2px solid gray;
+    }
+    li a {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    }
+    li a:hover {
+        background-color: hotpink;
+    }
