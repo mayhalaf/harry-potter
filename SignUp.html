@@ -6,50 +6,50 @@
     <title>Sign Up</title>
     <link rel="stylesheet" href="./SignUp.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-
 </head>
 <body>
-
+    
     <form method="get">
-  
+        <div><a href="index2.html">main </a></div>
       <fieldset>
         <center> <h1>sign up</h1></center>  
             <section class="grid">
-                 
                 <div class="form-input"> 
-                <label>First name </label>
-                 <input type="text" name="firstname" required>   
+                 <input type="text" name="firstname" placeholder="First name" required>   
+                </div>
+            </section>
 
+            <section class="grid">
+                <div class="form-input"> 
+                 <input type="text" name="lastname" placeholder="last name" required> 
                 </div>
             </section>
+
             <section class="grid">
                 <div class="form-input"> 
-                <label>last name </label>
-                 <input type="text" name="lastname" required>  </i>
+                 <input type="date" name="birthday" placeholder="birthday" required> 
+                 </div>
+            </section>
+
+            <section class="grid">
+                <div class="form-input"> 
+                 <input type="email" name="Email" placeholder="Email" required > 
+                 <i class='bx bx-envelope'></i>
                 </div>
             </section>
+
             <section class="grid">
                 <div class="form-input"> 
-                <label>birthday </label>
-                 <input type="date"  name="birthday" required> </div>
+                 <input type="password" name="Password" placeholder="Password" required> 
+                 </div>
             </section>
-            <section class="grid">
-                <div class="form-input"> 
-                <label>Email</label>
-                 <input type="Email" name="Email" required> <i class='bx bx-envelope'></i></div>
-            </section>
-            <section class="grid">
-                <div class="form-input"> 
-                <label>Password </label>
-                 <input type="Password" name="Password" required> </div>
-            </section>
+
         </fieldset>
             <fieldset>
-                <input type="submit" value="send">
-                <input type="reset" value="clear data">
-
+                <button type="submit" class="btn">Sign Up</button>
                 
+                <input type="reset" value="clear data">
         </fieldset>
+
 </body>
 </html>
