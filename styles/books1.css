@@ -91,6 +91,9 @@ background-size: cover;
 transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 
 }
+a{
+    text-decoration: none
+}
 
 .card1{
     background-image: url(/image/רקע1.jpg);
