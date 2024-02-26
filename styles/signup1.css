@@ -23,6 +23,7 @@ body{
     margin: 0 28px;
     border-radius: 10px;
     box-shadow: inset -2px 2px 2px white;
+    backdrop-filter: blur(20px);
 }
 
 .form-title{
