@@ -16,10 +16,10 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #f1f1f1;
-    background-image:url(./image/star.webp);
+    background-image:url(/image/star.webp);
 }
 .about{
-    background: url(./image/רקע1.jpg) no-repeat left;
+    background: url(/image/חדר_הסודות_כרזה_עברית.png) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;

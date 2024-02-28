@@ -12,7 +12,7 @@ body{
     height:100%;
     background-color: #2100de;
    
-    background-image: url(./image/star.webp);
+    background-image: url(/image/star.webp);
 }
 
 .contact-container{
@@ -39,7 +39,7 @@ body{
     padding-left: 0%;
     justify-content: center;
     flex-direction: column;
-    background-image: url(./image/m.jpg);
+    background-image: url(/image/m.jpg);
     color:rgb(18, 1, 1);
 }
 
