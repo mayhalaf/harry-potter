@@ -138,4 +138,11 @@ background: #fff;
 color: #333;
 }
 
+#footer {
+  grid-area: footer;
+  margin-top: 40%;
+  color: rgb(4, 41, 160);
+}
+
+
 
