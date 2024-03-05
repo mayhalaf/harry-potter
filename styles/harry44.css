@@ -55,6 +55,7 @@ body{
     background-color: #3495ea;
     color: white;
     cursor: pointer;
+    margin: 2%;
 }
 .skills button:hover{
     transition: 1s;
