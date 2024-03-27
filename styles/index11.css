@@ -61,6 +61,17 @@
     color: var(--color-primary);
   }
   
+  .welcome-text h1{
+    font-size: 18px;
+    color: var(--color-white);
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  .welcome-text h1:hover {
+    color: var(--color-black);
+  }
+ 
   .fas {
     float: right;
     margin-left: 10px;
