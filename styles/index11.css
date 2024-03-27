@@ -359,7 +359,7 @@ ol, li {
 
 
 @media
- (width < 800px ) {
+ (width < 900px ) {
 
   :root {
     --color-primary: #0073ff;
@@ -375,8 +375,7 @@ ol, li {
   }
   
   body {
-    font-family: sans-serif;
-    
+    font-family: 'Times New Roman', Times, serif
    
   }
   background-image{
@@ -534,6 +533,11 @@ img {
   
     
  }
+
+
+
+
+
 
 
 

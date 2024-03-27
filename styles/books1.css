@@ -10,6 +10,7 @@ font-family: 'Times New Roman', Times, serif;
     --clr-invert: #fff;
     --fs-base: 1.5rem;
 }
+
 .container{
 
     width: 100%;
@@ -302,7 +303,7 @@ p{
     }
     
     .card1{
-        background-image: url(/image/רקע1.jpg);
+        background-image: url(/image/01.jpg);
         
     }
     .card2{
@@ -324,7 +325,7 @@ p{
         background-image: url(/image/הארי_פוטר_ואוצרות_המוות_.jpeg);
     }
     .card8{
-        background-image: url(/image/הארי\ פוטר\ ואוצרות\ המוות\ חלק\ 2.jpg);
+        background-image: url(/image/04.jpg);
     }
     
     h5{
