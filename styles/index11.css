@@ -165,9 +165,6 @@ color: #333;
 
 
 
-
-
-
 .cd__main{
    display: block !important;
 }
@@ -355,9 +352,6 @@ ol, li {
 
 
 
-
-
-
 @media
  (width < 900px ) {
 
@@ -372,6 +366,7 @@ ol, li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
   
   body {
@@ -404,7 +399,7 @@ ol, li {
     list-style: none;
     display: flex; 
   }
-  
+
   .menu-bar ul li {
     padding: 10px 30px;
     position: relative;
@@ -414,7 +409,6 @@ ol, li {
     font-size: 18px;
     color: var(--color-white);
     text-decoration: none;
-  
     transition: all 0.3s;
   }
   
@@ -525,13 +519,9 @@ img {
   height: 100%;
 }
 
-
- }
-
  h1{
   font-family: 'Times New Roman', Times, serif;
   
-    
  }
 
 
@@ -539,8 +529,10 @@ img {
 
 
 
+}
 
 
+ 
 
 
 
