@@ -65,6 +65,7 @@
     color: var(--color-white);
     text-decoration: none;
     transition: all 0.3s;
+    
   }
   
   .welcome-text h1:hover {
@@ -213,12 +214,7 @@ ol, li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-color: #f99;
-
-}
-
-.carousel__slide:nth-child(even) {
-  background-color: #99f;
+  background-color: rgb(10, 8, 8);
 }
 
 .carousel__slide:before {
@@ -332,8 +328,7 @@ ol, li {
   * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
   }
   
   body {
@@ -475,7 +470,6 @@ padding-top: 20px;
   top: 500;
   left: 50%;
   transform: translateX(-50%);
-
 }
 img {
   width: 100%;
@@ -486,9 +480,6 @@ img {
   font-family: 'Times New Roman', Times, serif;
   
  }
-
-
-
 }
 
 
