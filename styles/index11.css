@@ -17,6 +17,7 @@
   }
   body {
     background-image: url("/image/1.jpeg"); 
+    
   }
 
   #logo{
@@ -26,7 +27,7 @@
     filter: invert(100%);
 } 
 
-  .menu-bar {
+.menu-bar {
     background-color: var(--color-black);
     height: 60px;
     width: 100%;
@@ -36,7 +37,7 @@
     padding: 0 5%;
     position: relative;  
   }
-  
+ 
   .menu-bar ul {
     list-style: none;
     display: flex;

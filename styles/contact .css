@@ -5,11 +5,9 @@ body{
     margin:0;
     height:100vh;
     width:100vw;
-    background-image: url(/image/star.webp)
-    
+    background-image: url(/image/star.webp)  
 }
-:root {
-    
+:root {  
     --clr-primary: #000;
     --clr-secondary: #888;
     --clr-invert: #fff;

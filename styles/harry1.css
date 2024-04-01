@@ -5,7 +5,6 @@
     
   }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +18,7 @@ body{
     background-color: #f1f1f1;
     background-image:url(/image/star.webp);
     font-family: 'Times New Roman', Times, serif;
+    
 }
 .about{
     background: url(/image/01.jpg) no-repeat left;
