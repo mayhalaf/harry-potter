@@ -214,12 +214,6 @@ ol, li {
   height: 100%;
   scroll-snap-align: center;
 }
-
-.carousel:hover .carousel__snapper,
-.carousel:focus-within .carousel__snapper {
-  animation-name: none;
-}
-
 .carousel__navigation {
   position: absolute;
   right: 0;
