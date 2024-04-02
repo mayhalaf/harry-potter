@@ -5,28 +5,23 @@
     --color-black: #141d28;
     --color-black-1: #212b38;
   }
-  
-  * {
+  *{
     margin: 0;
     padding: 0;
   }
-  
   body {
     font-family: 'Times New Roman', Times, serif;
-   
   }
   body {
-    background-image: url("/image/1.jpeg"); 
-    
+    background-image: url("/image/1.jpeg");  
+    background-repeat:round; 
   }
-
   #logo{
   
     width: 3%;
     margin-right: 10px;
     filter: invert(100%);
 } 
-
 .menu-bar {
     background-color: var(--color-black);
     height: 60px;
@@ -48,14 +43,12 @@
     padding: 10px 30px;
     position: relative;
   }
-  
   .menu-bar ul li a {
     font-size: 18px;
     color: var(--color-white);
     text-decoration: none;
     transition: all 0.3s;
-  }
-  
+  } 
   .menu-bar ul li a:hover {
     color: var(--color-primary);
   }
@@ -205,7 +198,6 @@ ol, li {
   color: #fff;
   font-size: 2em;
 }
-
 .carousel__snapper {
   position: absolute;
   top: 0;
@@ -221,12 +213,10 @@ ol, li {
   left: 0;
   text-align: center;
 }
-
 .carousel__navigation-list,
 .carousel__navigation-item {
   display: inline-block;
 }
-
 .carousel__navigation-button {
   display: inline-block;
   width: 1.5rem;
