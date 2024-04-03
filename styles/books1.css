@@ -78,19 +78,20 @@ a{
     text-decoration: none;
 }
 .card1{
-    background-image: url(/image/רקע1.jpg);
+    background-image: url(/image/01.jpg);
 }
 .card2{
     background-image: url(/image/חדר_הסודות_כרזה_עברית.png);
 }
 .card3{
-    background-image: url(/image/הארי\ פוטר\ והאסיר\ מאזקבאן1.jpg);
+    background-image: url(/image/02.webp);
+    
 }
 .card4{
     background-image: url(/image/הארי\ פוטר\ וגביע\ האש.jpg)
 }
 .card5{
-    background-image: url(/image/הארי\ פוטר\ ומסדר\ עוף\ החול1.jpg);
+    background-image: url(/image/03.jpg);
 }
 .card6{
     background-image: url(/image/הארי\ פוטר\ והנסיך\ חצוי-הדם.jpg);
@@ -99,7 +100,7 @@ a{
     background-image: url(/image/הארי_פוטר_ואוצרות_המוות_.jpeg);
 }
 .card8{
-    background-image: url(/image/הארי\ פוטר\ ואוצרות\ המוות\ חלק\ 2.jpg);
+    background-image: url(/image/04.jpg);
 }
 
 .card:hover{
@@ -246,19 +247,19 @@ p{
     
     .card1{
         background-image: url(/image/01.jpg);
-        
     }
     .card2{
         background-image: url(/image/חדר_הסודות_כרזה_עברית.png);
     }
     .card3{
-        background-image: url(/image/הארי\ פוטר\ והאסיר\ מאזקבאן1.jpg);
+        background-image: url(/image/02.webp);
+        
     }
     .card4{
         background-image: url(/image/הארי\ פוטר\ וגביע\ האש.jpg)
     }
     .card5{
-        background-image: url(/image/הארי\ פוטר\ ומסדר\ עוף\ החול1.jpg);
+        background-image: url(/image/03.jpg);
     }
     .card6{
         background-image: url(/image/הארי\ פוטר\ והנסיך\ חצוי-הדם.jpg);
